@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1127b2;
+}
+
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 105px;
+    background: #fff;
+    padding: 30px 30px;
+    overflow: hidden;
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s ease-out;
+}
+
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search-box input{
+    color: black;
+    width: 80%;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-left: 32px;
+}
+
+.search-box input::placeholder{
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+.search-box button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background: rgb(167, 219, 219);
+    border-radius: 50%;
+    font-size: 25px;
+    transition: 0.5s ease;
+}
+
+.search-box button:hover{
+    color: #fff;
+    background: rgb(18, 43, 155);
+}
+
+.search-box i{
+    position: absolute;
+    font-size: 30px;
+    color: black;
+}
+
+
+.weather-box{
+    text-align: center;
+}

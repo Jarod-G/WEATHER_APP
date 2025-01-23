@@ -1,3 +1,47 @@
-<html>
-    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Weather App</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="fa-solid fa-search"></button>
+        </div>
+
+        <div class="not-found">
+            <p>Location not found ! :/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="ressources/clear.png" alt="">
+            <p class="weather-temp">0</p>
+            <p class="weather-info">clear</p>
+        </div>
+
+        <div class="weather-details">
+            <img src="ressources/humidity.png" alt="">
+            <p class="weather-humidity">80%</p>
+            <p>Humidity</p>
+            <img src="ressources/wind.png" alt="">
+            <p class="weather-wind-speed">50 Km/H</p>
+            <p>Wind speed</p>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/dea1f16a82.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+<footer></footer>
+
 </html>
