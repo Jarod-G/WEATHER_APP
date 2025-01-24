@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Simple Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,23 +25,28 @@
         </div>
 
         <div class="weather-box">
-            <img src="ressources/clear.png" alt="">
-            <p class="weather-temp">0</p>
-            <p class="weather-info">clear</p>
+            <img src="">
+            <p class="temp"></p>
+            <p class="desc"></p>
         </div>
 
         <div class="weather-details">
-            <img src="ressources/humidity.png" alt="">
-            <p class="weather-humidity">80%</p>
-            <p>Humidity</p>
-            <img src="ressources/wind.png" alt="">
-            <p class="weather-wind-speed">50 Km/H</p>
-            <p>Wind speed</p>
+            <img src="ressources/humidity.png">
+            <div class="humidity">
+                <span></span>
+                <p>Humidity</p>
+            </div>
+            <div class="space-between"></div>
+            <img src="ressources/wind.png">
+            <div class="wind-speed">
+                <span></span>
+                <p>Wind speed</p>
+            </div>
         </div>
     </div>
 
     <script src="https://kit.fontawesome.com/dea1f16a82.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 
 <footer></footer>

@@ -19,12 +19,12 @@ body{
 .container{
     position: relative;
     width: 400px;
-    height: 105px;
+    height: 110px;
     background: #fff;
     padding: 30px 30px;
     overflow: hidden;
     border-radius: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:"Lexend Exa", serif;
     transition: 0.5s ease-out;
 }
 
@@ -76,5 +76,76 @@ body{
 
 
 .weather-box{
+    padding-top: 5px;
     text-align: center;
+}
+
+.weather-box p{
+    padding-top: 5px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.not-found{
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    text-align: center;
+    justify-content: center;
+    scale: 0;
+    opacity: 0;
+}
+
+
+.weather-details{
+    padding-top: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.weather-details p{
+    padding-top: 10%;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.weather-details img{
+    width: 50px;
+    height: 50px;
+}
+
+.humidity{
+    padding: 5px;
+}
+
+.wind-speed{
+    padding: 5px;
+}
+
+.space-between{
+    padding: 10%;
+}
+
+.weather-box, .weather-details {
+    scale: 0;
+    opacity: 0;
+}
+
+
+.fadeIn{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    to {
+        scale: 1;
+        opacity: 1;
+    }
 }
